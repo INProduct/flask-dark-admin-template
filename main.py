@@ -4,6 +4,7 @@ from site_info_de import site_info
 
 
 app = Flask(__name__)
+app.secret_key = 'mysupersecretkey'
 app.register_blueprint(dark_admin, url_prefix='/admin')
 
 

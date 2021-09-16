@@ -1,4 +1,6 @@
 site_info = {
     'lang': 'de',
-    'title': 'Admin'
+    'title': 'Admin',
+    'search': 'Suchen',
+
 }
